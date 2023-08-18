@@ -1,0 +1,40 @@
+   66  mkdir Checkpoint-ValentinaPelaez
+   67  cd Checkpoint-ValentinaPelaez
+   68  git init
+   69  git remote add origin https://github.com/valenpelaez99/Checkpoint-ValentinaPelaez.git
+   70  pwd
+   71  touch main.js index.html
+   72  git add .
+   73  git commit -m "commit 01 de ValentinaPelaez"
+   74  git push
+   75  git push origin master
+   76  git branch feature
+   77  git status
+   78  git branch
+   79  git checkout feature
+   80  git branch
+   81  mkdir Hardware Software SeguridadInformatica
+   82  cd Hardware
+   83  touch resumen.txt
+   84  cd ..
+   85  cd Software
+   86  touch resumen.txt
+   87  cd ..
+   88  cd SeguridadInformatica
+   89  touch resumen.txt
+   90  cd ..
+   91  git add .
+   92  git commit -m "commit 02 de ValentinaPelaez"
+   93  git push origin feature
+   94  git checkout master
+   95  ls
+   96  mv main.js resumenHardware.txt
+   97  mv index.html resumenSoftware.txt
+   98  ls
+   99  cd resumenSoftware
+  100  cd resumenSoftware.txt
+  101  vim resumenSoftware.txt
+  102  vim resumenHardware.txt
+  103  touch comandos.txt
+  104  history
+
